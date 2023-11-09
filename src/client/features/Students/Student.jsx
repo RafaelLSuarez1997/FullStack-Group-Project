@@ -25,7 +25,7 @@ export default function Student() {
     
     return (
         <div>
-            <img src={student.imgUrl} />
+            <img src={student.imageUrl} />
             <h2>{student.firstName} {student.lastName}</h2>
             <p>Email: {student.email}</p>
             <p>GPA: {student.gpa}</p>
