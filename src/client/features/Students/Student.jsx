@@ -6,7 +6,7 @@ import "./pretty.css"
 export default function Student() {
     const {id} = useParams();
     const { data, isLoading, isError } = useGetStudentQuery(id);
-    const [deleteStudent] = useDeleteStudentMutation();
+    const [deleteStudent] = useDeleteStudentMutation(id);
 
     const onDelete = async (evt) => {
         evt.preventDefault();
