@@ -1,6 +1,7 @@
 import { useDeleteStudentMutation, useGetStudentQuery } from "./studentSlice";
 import { useParams } from "react-router-dom";
 import UpdateForm from "./UpdateForm";
+import "./pretty.css"
 
 export default function Student() {
     const {id} = useParams();

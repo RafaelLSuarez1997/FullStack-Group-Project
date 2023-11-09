@@ -8,8 +8,6 @@ export default function Navbar() {
       <h1>Home Page</h1>
       <menu>
         <li><NavLink to="/students">All Students</NavLink></li>
-        <li>||</li>
-        <li><NavLink to="/students"> Create Student</NavLink></li>
       </menu>
     </nav>
   );
