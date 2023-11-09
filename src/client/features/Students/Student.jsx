@@ -1,6 +1,7 @@
 import { useDeleteStudentMutation, useGetStudentQuery } from "./studentSlice";
 import { useParams } from "react-router-dom";
 import UpdateForm from "./UpdateForm";
+import "./pretty.css"
 
 export default function Student() {
     const {id} = useParams();
@@ -24,7 +25,7 @@ export default function Student() {
     
     return (
         <div>
-            <img src={student.imgUrl} />
+            <img src={student.imageUrl} />
             <h2>{student.firstName} {student.lastName}</h2>
             <p>Email: {student.email}</p>
             <p>GPA: {student.gpa}</p>

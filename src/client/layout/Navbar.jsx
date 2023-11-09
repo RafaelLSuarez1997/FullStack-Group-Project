@@ -7,9 +7,7 @@ export default function Navbar() {
     <nav className="top">
       <h1>Home Page</h1>
       <menu>
-        <li>
-          <NavLink to="/students">All Students</NavLink>
-        </li>
+        <li><NavLink to="/students">All Students</NavLink></li>
       </menu>
     </nav>
   );

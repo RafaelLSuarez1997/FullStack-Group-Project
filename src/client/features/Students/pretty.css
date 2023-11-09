@@ -37,6 +37,10 @@ text-align: center;
 margin-top: 50px;
 }
 
-
+img {
+    width: 400px;
+    height: 400px; 
+    border-radius: 50%;
+  }
 
 
